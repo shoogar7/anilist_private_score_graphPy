@@ -1,0 +1,9 @@
+now that we know that AnilistAPI doesn't work because of it's problems with servers that makes them have a limit of fetched data to only 90 per minute...
+let's create a python application that will just make a graph of the data...
+so that we can finally move on with our lives.
+probably should create a separate project on github, folder and etc. for this.
+Before all, we should add a script that makes the weird file from Anilist into a cute little JSON file from which we can fetch the id and score.
+First we want to create a script that will fetch name of the anime and the url of it's cover image and then save it to a .txt or some other file along with the id and score.
+
+Then we make sure that the data is correct and none of it is duplicated or missing, let's not skip the dropped, paused and planned anime to make sure it doesn't skip anything...
+Finally we'll make an python application that will take the id, title, score and url and display it on a graph probably we'll use bokeh or some other python library.
